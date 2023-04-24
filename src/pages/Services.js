@@ -7,18 +7,20 @@ const Services = () => {
     return (
         <div>
             <Header />
-            <p>La voix est un instrument vivant, et demande un échauffement adapté. Éveil corporel, mise en voix, travail postural et de respiration, technique vocale... Cours adpatés à chaque élève de tous niveaux.</p>
-            <article>
-                <img src={cours} alt="chanteuse" />
-                <h3>Cours de chant individuel</h3>
-                <h4>30€ l'heure de cours.</h4>
-                <h4>Plusieurs formules disponibles.</h4>
-            </article>
-            <article>
-                <img src={cours} alt="chanteuse" />
-                <h3>Cours de chant DUO</h3>
-                <h4>45€ l'heure de cours ou 60€ pour 1h30.</h4>
-            </article>
+            <p className='services-p'>La voix est un instrument vivant, et demande un échauffement adapté. Éveil corporel, mise en voix, travail postural et de respiration, technique vocale... <br /> Cours adpatés à chaque élève de tous niveaux.</p>
+            <div className='services'>
+                <article className="services_article">
+                    <img className="services_article-img" src={cours} alt="chanteuse" />
+                    <h3 className="services_article-title">Cours de chant individuel</h3>
+                    <h4 className="services_article-subtitle">30€ l'heure de cours.</h4>
+                    <h4 className="services_article-subtitle">Plusieurs formules disponibles.</h4>
+                </article>
+                <article className="services_article">
+                    <img className="services_article-img" src={cours} alt="chanteuse" />
+                    <h3 className="services_article-title">Cours de chant DUO</h3>
+                    <h4 className="services_article-subtitle">45€ l'heure de cours ou 60€ pour 1h30.</h4>
+                </article>
+            </div>
             <Footer />
         </div>
     );

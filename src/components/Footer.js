@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className='footer'>
                 <img className="footer_logo" src={Logo} alt='Logo Vocalizy'></img>
-                <address>2 Av. Roland Garros, 18000 Bourges</address>
+                <address className="footer_address">2 Av. Roland Garros, 18000 Bourges</address>
                 <div className='footer_contact'>
                     <h3>Kévin TEILLIER</h3>
                     <h4>Coach Vocal</h4>

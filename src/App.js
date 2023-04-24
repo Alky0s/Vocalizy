@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Comments from "./pages/Comments";
 import Join from "./pages/Join";
+import Partners from "./pages/Partners";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Comments" element={<Comments />} />
+          <Route path="/Partners" element={<Partners />} />
           <Route path="/Join" element={<Join />} />
       </Routes>
     </BrowserRouter>

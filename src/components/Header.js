@@ -12,16 +12,19 @@ const Header = () => {
                         <NavLink to ="/">Accueil</NavLink>
                     </li>
                     <li className='header_nav--link'>
-                    <NavLink to ="/About">Qui suis-je ?</NavLink>
+                        <NavLink to ="/About">Qui suis-je ?</NavLink>
                     </li>
                     <li className='header_nav--link'>
-                    <NavLink to ="/Services">Mes prestations</NavLink>
+                        <NavLink to ="/Services">Mes prestations</NavLink>
                     </li>
                     <li className='header_nav--link'>
-                    <NavLink to ="/Comments">Livre d'or</NavLink>
+                        <NavLink to ="/Comments">Livre d'or</NavLink>
                     </li>
                     <li className='header_nav--link'>
-                    <NavLink to ="/Join">Contact</NavLink>
+                        <NavLink to ="/Partners">Partenaires</NavLink>
+                    </li>
+                    <li className='header_nav--link'>
+                        <NavLink to ="/Join">Contact</NavLink>
                     </li>
                 </ul>
             </nav>
