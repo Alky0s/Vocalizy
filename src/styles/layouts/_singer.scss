@@ -1,0 +1,41 @@
+.singer {
+    margin-bottom: 70px;
+    &-pictures {
+        display: flex;
+    }
+    &-contact {
+        display: flex;
+        font-size: 36px;
+        font-weight: 600;
+        justify-content: center;
+        text-decoration: none;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1f2a2e;
+        background-image: linear-gradient( rgb(179, 102, 102), rgba(255,255,255,0));
+        border: none;
+        transition: background-color 0.6s;
+        &:hover {
+            background-color: #f72a7f;
+        }
+        & a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    & img {
+        width: 33%;
+        padding: 15px;
+    }
+    & h3 {
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        background: linear-gradient(to right, #1f2a2e, #bc494c);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+

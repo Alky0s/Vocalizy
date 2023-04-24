@@ -1,0 +1,34 @@
+.home-background {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    &_title {
+       text-align: center;
+       margin-top: 30px;
+        & h1 {
+            font-size: 40px;
+            font-weight: 500;
+            background: linear-gradient(to right, #1f2a2e, #bc494c);
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+        }
+        & h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #bc494c;
+        }
+        & p {
+            font-size: 24px;
+            margin-top: 60px;
+            line-height: 40px;
+            margin-right: 30px;
+            font-weight: 400;
+        }
+    }
+    & img {
+        width: 100%;
+        height: 450px;
+        object-fit: contain;
+    }
+}

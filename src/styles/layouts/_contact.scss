@@ -1,0 +1,15 @@
+.btn-contact {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: #f72a7f;
+    background-image: linear-gradient( rgb(179, 102, 102), rgba(255,255,255,0));
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: background-color 0.6s;
+    &:hover {
+        cursor: pointer;
+        background-color: #1f2a2e;
+    }
+}
