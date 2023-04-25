@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
+    @include desktop {
+        margin: 80px;
+    }
     &_title {
        text-align: center;
        margin-top: 30px;
@@ -11,7 +14,11 @@
             background: linear-gradient(to right, #1f2a2e, #bc494c);
             background-clip: border-box;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
+            -webkit-text-fill-color: transparent;
+            @include desktop {
+                font-size: 40px;
+            }
+            
         }
         & h2 {
             font-size: 32px;

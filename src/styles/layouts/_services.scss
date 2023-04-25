@@ -1,6 +1,9 @@
 .services {
     display: flex;
     justify-content: center;
+    @include desktop {
+        margin: 80px;
+    }
     &-p {
         font-size: 28px;
         line-height: 60px;

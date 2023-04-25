@@ -1,5 +1,8 @@
 .singer {
     margin-bottom: 70px;
+    @include desktop {
+        margin: 80px;
+    }
     &-pictures {
         display: flex;
     }

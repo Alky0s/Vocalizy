@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-between;
     margin: 30px;
+    @include desktop {
+        margin: 80px;
+    }
     &_logo {
         width: 20%;
         border-radius: 50%;
@@ -16,6 +19,9 @@
             padding-left: 15px;
             padding-right: 15px;
             font-size: 26px;
+            @include desktop {
+                font-size: 24px;
+            }
             & :hover{
                color: #bc494c;
             }
