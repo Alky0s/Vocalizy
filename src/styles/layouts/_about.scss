@@ -1,0 +1,47 @@
+.about {
+    &-title {
+        font-size: 36px;
+        margin-top: 80px;
+    }
+    &-section {
+        display: flex;
+        flex-direction: row-reverse;
+        
+        &_pic {
+            width: 50%;
+            height: 600px;
+            object-fit: contain;
+        }
+        &_text {
+            font-size: 24px;
+            margin-top: 100px;
+            line-height: 40px;
+            margin-right: 30px;
+            font-weight: 400;
+            padding-left: 40px;
+        }
+    }
+    &-section2 {
+        display: flex;
+        flex-direction: row-reverse;
+        &_pic {
+            width: 50%;
+            height: 600px;
+            object-fit: contain;
+        }
+        &_content {
+            &-text {
+                font-size: 24px;
+                margin-top: 60px;
+                line-height: 40px;
+                margin-right: 30px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+
+
+
